@@ -62,3 +62,20 @@
   margin: 0 auto;
   text-align: center;
 }
+#links .dl-torrent {
+  display: block;
+  font-style: normal !important;
+  margin-top: -20px;
+}
+#get-app .dl-torrent,
+#features .dl-torrent {
+  font-style: normal !important;
+  font-size: 12px;
+  a {
+    color: #7A818E;
+    text-decoration: none;
+  }
+}
+#features .dl-torrent {
+  margin-top: -10px;
+}
