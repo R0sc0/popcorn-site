@@ -67,18 +67,6 @@
 	<meta property="og:image" content="http://popcorn.cdnjd.com/images/header-ui.jpg" />
 	<meta property="og:url" content="http://popcorn.cdnjd.com" />
 	<meta property="og:site_name" content="Popcorn Time" />
-
-	<script type="text/javascript">
-	// Redirect the user to the correct language
-	// TODO: Remember the preferred language
-	var language = (navigator.language || navigator.userLanguage).toLowerCase().slice(0,2);
-	var supportedLanguages = ['es'];
-	if( language != 'en' ) {
-		for( i in supportedLanguages ) {
-			if( supportedLanguages[i] === language ){ window.location.replace("/"+language); break; }
-		}
-	}
-	</script>
 </head>
 <body class="beta">
 	<section id="header">
